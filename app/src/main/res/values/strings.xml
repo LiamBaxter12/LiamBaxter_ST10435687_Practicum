@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="Details">View Details</string>
+    <string name="Button1">View Weather</string>
+    <string name="exit">Exit</string>
+    <string name="textView">Name: Liam Baxter</string>
+    <string name="student">Student No: ST10435687</string>
+    <string name="day">Enter Week Days</string>
+    <string name="max1">Enter Max Temp</string>
+    <string name="min">Enter Min Temp</string>
+    <string name="weather">Weather Condition</string>
+    <string name="button">Average</string>
+    <string name="clear">Clear</string>
+    <string name="textView9"></string>
+    <string name="view_details">View Details</string>
+    <string name="ExitButton">Exit</string>
+    <string name="BackButton2">Back</string>
+    <string name="weather_activity_name">Weather Activity Name</string>
+    <string name="screen2_activity_name">Screen2 Activity Name</string>
+
+
+</resources>
