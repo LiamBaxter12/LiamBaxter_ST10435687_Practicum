@@ -3,7 +3,6 @@ package com.example.practical
 import android.content.Intent
 import androidx.test.espresso.action.ViewActions
 
-package com.example.practical
 
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.action.ViewActions.click
@@ -25,10 +24,6 @@ class MainActivityTest {
         Espresso.onView(withId(R.id.button)).perform(click())
         // Add assertions or further actions if needed
     }
-}
-
-
-package com.example.practical
 
 @RunWith(AndroidJUnit4::class)
 class Weather1Test {
@@ -50,7 +45,7 @@ class Weather1Test {
 }
 
 
-package com.example.practical
+
 
 @RunWith(AndroidJUnit4::class)
 class Screen2Test {
@@ -86,4 +81,4 @@ class Screen2Test {
     private fun putIntegerArrayListExtra() {
         TODO("Not yet implemented")
     }
-}
+}}

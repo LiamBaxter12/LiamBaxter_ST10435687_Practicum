@@ -28,7 +28,7 @@ class Weather1 : AppCompatActivity() {
         val averageTextView = findViewById<TextView>(R.id.textView9)
         val clearButton = findViewById<Button>(R.id.clear)
         val exitButton = findViewById<Button>(R.id.ExitButton)
-
+//calculating average
         averageButton.setOnClickListener {
             val day = dayEditText.text.toString()
             val maxTemp = maxTempEditText.text.toString().toIntOrNull()
@@ -55,7 +55,7 @@ class Weather1 : AppCompatActivity() {
                 averageTextView.text = "Please fill in all fields"
             }
         }
-
+//setting clear button
         clearButton.setOnClickListener {
             // Clear all input fields
             dayEditText.text.clear()
@@ -63,7 +63,7 @@ class Weather1 : AppCompatActivity() {
             minTempEditText.text.clear()
             weatherConditionEditText.text.clear()
         }
-
+//setting exit button
         exitButton.setOnClickListener {
             finishAffinity() // Exit the app entirely
         }
